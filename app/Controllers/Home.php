@@ -18,10 +18,10 @@ class Home extends BaseController
     {
         $data = [
             'title' => 'Esemka Library | Home',
-            'page' => 'v_home',
+            'page' => 'v_login',
             'slider' => $this->ModelPengaturan->Slider(),
         ];
-        return view('v_template', $data);
+        return view('v_template_login', $data);
     }
 
     public function Sejarah()

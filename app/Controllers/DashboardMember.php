@@ -16,7 +16,7 @@ class DashboardMember extends BaseController
         helper('form');
         $this->ModelMember = new ModelMember();
     }
-    
+
     public function index()
     {
         $id_member = session()->get('id_member');
@@ -27,6 +27,6 @@ class DashboardMember extends BaseController
             'page' => 'v_dashboard_member',
             'member' => $this->ModelMember->ProfileMember($id_member),
         ];
-        return view('v_template_member', $data);
+        return view('member/index', $data);
     }
 }

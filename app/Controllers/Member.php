@@ -29,7 +29,7 @@ class Member extends BaseController
             'page' => 'Member/v_index',
             'member' => $this->ModelMember->AllData(),
         ];
-        return view('v_template_admin', $data);
+        return view('member/index', $data);
     }
 
     public function Verifikasi($id_member)
@@ -254,5 +254,10 @@ class Member extends BaseController
         $this->ModelMember->DeleteData($data);
         session()->setFlashdata('pesan', 'Data Berhasil DiHapus!');
         return redirect()->to(base_url('Member'));
+    }
+
+    public function soal()
+    {
+        return view('Member/soal/soal'); // Sesuaikan dengan nama file view soal
     }
 }
