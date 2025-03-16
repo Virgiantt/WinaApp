@@ -1,0 +1,48 @@
+body {
+   margin: 0;
+   padding: 0;
+}
+
+table {
+   width: 100%;
+   border-left: 1px solid #ddd;
+   border-top: 1px solid #ddd;
+}
+
+table th, table td {
+   border-bottom: 1px solid #ddd;
+   border-right: 1px solid #ddd;
+   padding: 5px 13px;
+   font-size: 12px;
+   text-align: left;
+   vertical-align: top;
+}
+
+table th:last-child, 
+table td:last-child {
+   border-right: none;
+}
+
+table td:first-child {
+   vertical-align: text-top;
+}
+
+h3 {
+   text-align: center;
+}
+
+div.info-header {
+   font-size: 13px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+
+div.footer-row {
+   margin-top: 25px;
+   margin-left: 60%;
+   text-align: center;
+}
+
+hr {
+   margin: 0px;
+}

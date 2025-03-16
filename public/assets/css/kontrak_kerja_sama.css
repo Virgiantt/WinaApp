@@ -1,0 +1,36 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+div.header {
+   width: 100%;
+   height: auto;
+   text-align: center;
+}
+
+div.header div.title {
+   font-weight: bold;
+   font-size: 20px;
+}
+
+div.body {
+   margin-top: 30px;
+   font-size: 12px;
+}
+
+div.body table {
+   font-size: 12px;
+}
+
+div.body div.title-uud,
+div.body div.subtitle-uud {
+   font-weight: bold;
+   font-size: 13px;
+   text-align: center;
+}
+
+div.body ol.pasal-uud {
+   margin-top: 15px;
+}

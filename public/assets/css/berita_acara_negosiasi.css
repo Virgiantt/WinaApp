@@ -1,0 +1,54 @@
+body {
+   margin: 0;
+   padding: 0;
+   font-family: serif;
+   font-size : 10pt;
+}
+
+div.header {
+   width: 100%;
+   height: auto;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+}
+
+div.header div.title {
+   font-size: 14pt;
+   /* font-weight: bold; */
+   text-transform: uppercase;
+}
+
+div.body {
+   margin-top: 30px;
+}
+
+div.body table.produk {
+   margin-top: 20px;
+   width: 100%;
+   border-left: 1px solid #ddd;
+   border-bottom: 1px solid #ddd;
+   border-collapse: collapse;
+   text-align: center;
+}
+
+div.body table.produk tr td {
+   border-top: 1px solid #ddd;
+   border-right: 1px solid #ddd;
+   padding: 5px 15px;
+}
+
+div.footer {
+   margin-top: 50px;
+   margin-left: 50px;
+   display: flex;
+   font-size: 12px;
+}
+
+div.footer div {
+   width: 40%;
+   float: left;
+   padding-left: 30px;
+   padding-right: 30px;
+   text-align: left;
+}

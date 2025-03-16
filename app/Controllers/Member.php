@@ -32,6 +32,11 @@ class Member extends BaseController
         return view('member/index', $data);
     }
 
+    // public function soal()
+    // {
+    //     return view('Member/soal/index');
+    // }
+
     public function Verifikasi($id_member)
     {
         $data = [
@@ -254,10 +259,5 @@ class Member extends BaseController
         $this->ModelMember->DeleteData($data);
         session()->setFlashdata('pesan', 'Data Berhasil DiHapus!');
         return redirect()->to(base_url('Member'));
-    }
-
-    public function soal()
-    {
-        return view('Member/soal/soal'); // Sesuaikan dengan nama file view soal
     }
 }

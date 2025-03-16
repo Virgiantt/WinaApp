@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+*{
+ padding: 0;
+ margin: 0;
+}
+
+body {
+	font-family: 'Calibri';
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+	margin-top: 0; 
+	margin-bottom: 0;
+}
+
+h3 {
+	text-decoration: underline; 
+	font-size: 14pt;
+}
+
+.m-0 {
+	margin: 0;
+}
+
+.mt-1 {
+	margin-top: 20px;
+}
+
+.mb-1 {
+	margin-bottom: 20px;
+}
+
+.p-1 {
+	padding: 10px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.w-10 {width: 10%;}
+.w-20 {width: 20%;}
+.w-25 {width: 25%;}
+.w-30 {width: 30%;}
+.w-50 {width: 50%;}
+.w-70 {width: 70%;}
+.w-75 {width: 75%;}
+.w-80 {width: 80%;}
+.w-90 {width: 90%;}
+.w-100 {width: 100%;}
+
+.underlined {
+	text-decoration: underline;
+}
+
+.indent-50 {
+	text-indent: 50px;
+}
+
+.kop-surat {
+	padding: 0;
+}
+
+.instansi {
+	margin-top: 0;
+	text-align: center;
+}
+
+hr.chd-1 {
+	height: 5px; 
+	background-color: black; 
+	color: black; 
+	margin-bottom: 0;
+}
+
+hr.chd-2 {
+	margin-top: 1px; 
+	color: black;
+}
+
+.header-surat {
+	margin-top: 7px;
+}
+
+.tbl-rekening{
+	margin: 0;
+}

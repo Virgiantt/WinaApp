@@ -2,12 +2,11 @@
 
     <ol class="breadcrumb bg-light mt-3 mb-3">
         <li class="breadcrumb-item"><a href="<?= base_url('DashboardMember/index') ?>">Home</a></li>
-        <li class="breadcrumb-item text-dark">Try Out</li>
+        <li class="breadcrumb-item text-dark">Latihan</li>
     </ol>
 
-    <h1 class="h3 text-gray-800">Kerjakan Try Out</h1>
-    <p>Uji kesiapanmu dengan Try Out kami, tantang dirimu untuk menjadi yang terbaik di antara yang lain!</p>
-
+    <h1 class="h3 text-gray-800">Latihan Try Out</h1>
+    <p>Latih kemampuanmu dengan materi terbaru dan jadilah yang terdepan di antara teman-temanmu.</p>
     <div class="row">
         <div class="col-sm-12">
 
@@ -34,7 +33,7 @@
     <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title">Detail Try Out</h5>
+                <h5 class="modal-title">Detail Latihan</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -66,7 +65,7 @@
                                 <tr>
                                     <td width="20%">Jumlah Soal</td>
                                     <td width="1%">:</td>
-                                    <td align="left" class="question_count">110</td>
+                                    <td align="left" class="count_question">110</td>
                                 </tr>
                             </table>
                         </div>
@@ -79,25 +78,12 @@
                                 </tr>
                             </table>
                         </div>
-                        <div class="col-sm-12 form-group text-dark mb-0">
-                            <table class="table mb-0">
-                                <tr>
-                                    <td width="20%">Passing Grade</td>
-                                    <td width="1%">:</td>
-                                    <td align="left" class="passing_grade">
-                                        <div>Tes Wawasan Kebangsaan : <span class="twk"></span></div>
-                                        <div>Tes Intelegensia Umum : <span class="tiu"></span></div>
-                                        <div>Tes Karakteristik Pribadi : <span class="tkp"></span></div>
-                                    </td>
-                                </tr>
-                            </table>
-                        </div>
 
                     </div>
                     <hr>
                     <div class="text-right">
                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
-                        <button type="button" class="btn btn-primary mulai-soal">Mulai Try Out</button>
+                        <button type="button" class="btn btn-primary mulai-latihan">Mulai Latihan</button>
                     </div>
                 </form>
             </div>

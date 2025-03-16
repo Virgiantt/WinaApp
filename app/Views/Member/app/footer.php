@@ -36,7 +36,7 @@
             <div class="modal-body">Apa anda yakin untuk Logout?.</div>
             <div class="modal-footer">
                 <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                <a class="btn btn-primary" href="<?= base_url("logout") ?>">Logout</a>
+                <a class="btn btn-primary" href="<?= base_url("auth") ?>">Logout</a>
             </div>
         </div>
     </div>

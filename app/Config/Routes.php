@@ -16,9 +16,8 @@ $routes->setAutoRoute(true);
 
 $routes->get('/', 'Home::index');
 
-// $routes->get('soal/(:num)', 'Member::soal/$1');  
-$routes->get('Member/soal/soal', 'soal::soal');
-
+// $routes->get('Member/dashboard/index', 'DashboardMember::index');
+$routes->get('member/soal', 'DashboardMember::soal');
 
 
 if (is_file(APPPATH . 'Config/' . ENVIRONMENT . '/Routes.php')) {

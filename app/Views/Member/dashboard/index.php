@@ -7,23 +7,24 @@
     <h5 class="text-dark">Selesaikan try out untuk melatih kemampuan kamu.</h5>
 
     <ol class="breadcrumb bg-light mt-4">
-        <li class="breadcrumb-item"><a href="<?= base_url('user/dashboard') ?>">Home</a></li>
+        <li class="breadcrumb-item"><a href="<?= base_url('Member/dashboard') ?>">Home</a></li>
     </ol>
 
     <div class="row" style="margin-bottom:250px">
-        <a href="<?= base_url("Member/soal") ?>" class="col-sm-5 text-decoration-none">
+        <a href="<?= base_url("DashboardMember/soal") ?>" class="col-sm-5 text-decoration-none">
             <div class="bg-warning p-4 my-3 text-white rounded shadow" style="min-height: 160px;">
                 <h3>Try Out</h3>
                 <p>Uji kesiapanmu dengan tryout kami, tantang dirimu untuk menjadi yang terbaik di antara yang lain!</p>
             </div>
         </a>
-        <a href="<?= base_url("user/latihan") ?>" class="col-sm-5 text-decoration-none">
+
+        <a href="<?= base_url("DashboardMember/latihan") ?>" class="col-sm-5 text-decoration-none">
             <div class="bg-warning p-4 my-3 text-white rounded shadow" style="min-height: 160px;">
                 <h3>Latihan</h3>
                 <p>Latih kemampuanmu dengan materi terbaru dan jadilah yang terdepan di antara teman-temanmu.</p>
             </div>
         </a>
-        <a href="<?= base_url("user/hasil") ?>" class="col-sm-5 text-decoration-none">
+        <a href="<?= base_url("DashboardMember/hasil") ?>" class="col-sm-5 text-decoration-none">
             <div class="bg-warning p-4 my-3 text-white rounded shadow" style="min-height: 160px;">
                 <h3>Hasil</h3>
                 <p>Lihat hasil upayamu! Bandingkan dan analisis performamu dengan pengguna lain.</p>

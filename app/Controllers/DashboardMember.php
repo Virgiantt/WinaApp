@@ -27,6 +27,30 @@ class DashboardMember extends BaseController
             'page' => 'v_dashboard_member',
             'member' => $this->ModelMember->ProfileMember($id_member),
         ];
-        return view('member/index', $data);
+        return view('member/dashboard/index', $data);
+    }
+
+    public function soal()
+    {
+        return view('Member/app/navbar')
+            . view('Member/soal/index')
+            . view('Member/app/header')
+            . view('Member/app/footer');
+    }
+
+    public function latihan()
+    {
+        return view('Member/app/navbar')
+            . view('Member/latihan/index')
+            . view('Member/app/header')
+            . view('Member/app/footer');
+    }
+
+    public function hasil()
+    {
+        return view('Member/app/navbar')
+            . view('Member/hasil/index')
+            . view('Member/app/header')
+            . view('Member/app/footer');
     }
 }

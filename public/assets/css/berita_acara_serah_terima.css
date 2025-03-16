@@ -1,0 +1,41 @@
+body {
+   font-size: 10pt;
+   font-family: serif;
+}
+
+p {
+   margin-top: 5pt;
+   margin-bottom: 5pt;
+}
+
+div.kop {
+   text-align: center;
+}
+
+div.kop div.title {
+   font-weight: bold;
+   font-size: 14pt;
+   /* margin-bottom: 5px; */
+}
+
+div.kop div.subtitle {
+   font-size: 12pt;
+   margin-bottom: 10pt;
+}
+
+table.produk {
+   font-size: 10pt;
+   width: 100%;
+   border-left: 1px solid #ddd;
+   border-bottom: 1px solid #ddd;
+   text-align: center;
+   margin-top: 5pt;
+   margin-bottom: 5pt;
+}
+
+table.produk thead tr th,
+table.produk tbody tr td {
+   border-top: 1px solid #ddd;
+   border-right: 1px solid #ddd;
+   padding: 5px 8px;
+}
